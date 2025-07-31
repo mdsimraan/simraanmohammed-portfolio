@@ -75,28 +75,28 @@ const Home = () => {
         <div className="container">
           <h2 className="section-title">Technologies I Work With</h2>
           <div className="skills-grid">
-            <div className="skill-item">
+            <div className="skill-item1">
               <div className="skill-icon">
                 <SiReact size={40} color="#61DAFB" title="React" />
               </div>{" "}
               <h3>React</h3>
               <p>Modern React with hooks, context, and functional components</p>
             </div>
-            <div className="skill-item">
+            <div className="skill-item1">
               <div className="skill-icon">
                 <SiNodedotjs size={40} color="#83CD29" title="Node.js" />
               </div>{" "}
               <h3>Node.js</h3>
               <p>Server-side development with Express.js and RESTful APIs</p>
             </div>
-            <div className="skill-item">
+            <div className="skill-item1">
               <div className="skill-icon">
                 <SiMongodb size={40} color="#47A248" title="MongoDB" />
               </div>{" "}
               <h3>MongoDB</h3>
               <p>NoSQL database design and optimization</p>
             </div>
-            <div className="skill-item">
+            <div className="skill-item1">
               <div className="skill-icon">
                 <SiFigma size={40} color="#F24E1E" title="Figma (UI/UX)" />
               </div>{" "}

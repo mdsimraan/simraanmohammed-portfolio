@@ -308,15 +308,16 @@
   }
   
   .timeline::before {
-    left: 15px;
-  }
+  left: 22px;
+}
+
   
   .timeline-item {
     padding-left: 2.5rem;
   }
   
   .timeline-marker {
-    left: 9px;
+    left: 1px;
   }
   
   .education-grid {

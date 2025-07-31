@@ -334,5 +334,9 @@
     gap: 1rem;
     text-align: center;
   }
+   .contact-item {
+    justify-content: center;
+    text-align: center;
+  } 
 }
 }
