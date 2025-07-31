@@ -1,5 +1,7 @@
 import React from "react";
 import "./About.css";
+import profileImage from '../../assets/aaronamit.jpeg';
+
 
 const About = () => {
   const skills = [
@@ -87,9 +89,10 @@ const About = () => {
             </div>
             <div className="about-image slide-in-up">
               <div className="image-container">
-                <div className="profile-placeholder">
-                  <span>Your Photo</span>
-                </div>
+               <div className="profile-placeholder">
+  <img src={profileImage} alt="Your Photo" className="profile-image" />
+</div>
+
                 <div className="image-decoration"></div>
               </div>
             </div>

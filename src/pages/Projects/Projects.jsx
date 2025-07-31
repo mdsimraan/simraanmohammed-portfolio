@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
 import './Projects.css'
+import LP from '../../assets/LP.jpeg'
+import adeiaz from '../../assets/adeiaz.png'
+import anandam from '../../assets/anandam.png'
+import port from '../../assets/port.jpg'
+import ERP from '../../assets/ERP.jpg'
+import cm from '../../assets/cm.jpg'
 
 const Projects = () => {
   const [filter, setFilter] = useState('all')
@@ -9,9 +15,9 @@ const Projects = () => {
       id: 1,
       title: 'Lets-Play',
       category: 'fullstack',
-      image: '/api/placeholder/400/250',
+      image: LP,
       description: 'Built a multi-module sports and fitness app enabling users to find buddies, book gyms, courts, events, and experts. ',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
+      technologies: ['React', 'Node.js', 'MySQL', 'Express','FIREBASE'],
       liveUrl: '#',
       githubUrl: '#',
       featured: true
@@ -20,9 +26,9 @@ const Projects = () => {
       id: 2,
       title: 'Adeiaz',
       category: 'frontend',
-      image: '/api/placeholder/400/250',
+      image: adeiaz,
       description: 'Collaboratively developed a React-based platform for managing LED rooftop car advertisements, inspired by Lyt-ads and Flash DOOH',
-      technologies: ['React', 'Context API', 'CSS3', 'React DnD'],
+      technologies: ['React', 'Context API', 'CSS3', 'PHP','AWS EC2'],
       liveUrl: '#',
       githubUrl: '#',
       featured: true
@@ -31,9 +37,9 @@ const Projects = () => {
       id: 3,
       title: 'Coaching-Master',
       category: 'fullstack',
-      image: '/api/placeholder/400/250',
+      image: cm,
       description: 'Developed a full-stack educational web application for student enrollment in Software, IT, and AI courses',
-      technologies: ['Node.js', 'Express', 'MongoDB', 'Socket.io', 'JWT'],
+      technologies: ['Node.js', 'Express', 'MongoDB', 'CORS', 'React','FIREBASE'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
@@ -42,9 +48,9 @@ const Projects = () => {
       id: 4,
       title: 'Anandam Learning',
       category: 'frontend',
-      image: '/api/placeholder/400/250',
+      image: anandam,
       description: 'Developed an interactive educational website using React.js, focusing on student engagement and smooth course access',
-      technologies: ['React', 'API Integration', 'CSS3', 'Chart.js'],
+      technologies: ['React', 'RestfulAPI', 'CSS3', 'Node.js','Express.js'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
@@ -53,9 +59,9 @@ const Projects = () => {
       id: 5,
       title: 'Portfolio Website',
       category: 'frontend',
-      image: '/api/placeholder/400/250',
+      image: port,
       description: 'A responsive portfolio website built with React and modern CSS. Features smooth animations, dark mode toggle, and contact form.',
-      technologies: ['React', 'CSS3', 'Framer Motion', 'Netlify'],
+      technologies: ['React', 'CSS3', 'Framer Motion', 'Netlify','MUI','SI-React-icons'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
@@ -64,9 +70,9 @@ const Projects = () => {
       id: 6,
       title: 'Lead Management System',
       category: 'frontend',
-      image: '/api/placeholder/400/250',
+      image: ERP,
       description: 'Designed and developed the front-end of an ERP website to streamline business operations ',
-      technologies: ['React', 'API Integration', 'CSS3', 'Chart.js'],
+      technologies: ['React', 'API Integration', 'CSS3', 'Chart.js','Shadcn-ui','MUI'],
       liveUrl: '#',
       githubUrl: '#',
       featured: false
