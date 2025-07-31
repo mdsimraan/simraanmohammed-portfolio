@@ -279,6 +279,86 @@ border-color: rgba(255, 255, 255, 0.3);
 background: var(--text-white);
 color: var(--primary-color);
 }
+.hero-image {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  background: rgba(10, 15, 25, 0.85); /* Darker glass with dev-feel */
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 255, 170, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow:
+    0 0 20px rgba(0, 255, 170, 0.1),
+    0 0 40px rgba(0, 255, 170, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+  animation: slideUp 1s ease-out forwards;
+}
+
+/* Optional animated border glow */
+.hero-image::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  background: linear-gradient(45deg, #00ffaa, #0055ff, #00ffaa);
+  background-size: 400%;
+  filter: blur(8px);
+  animation: borderGlow 6s linear infinite;
+  border-radius: inherit;
+  opacity: 0.3;
+}
+
+/* Optional grid effect (dev theme) */
+.hero-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-image:hover {
+  transform: scale(1.02);
+  transition: transform 0.4s ease;
+}
+
+
+.hero-image img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #000000; /* optional accent border */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 /* Responsive Design */
 @media (max-width: 968px) {
@@ -335,7 +415,11 @@ align-items: center;
 width: 200px;
 }
 }
-
+@media (max-width: 600px) {
+  .hero-image {
+    max-width: 280px;
+  }
+}
 @media (max-width: 480px) {
 .hero-description {
 max-width: 100%;

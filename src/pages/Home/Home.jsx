@@ -5,6 +5,7 @@ import { SiNodedotjs } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiFigma } from "react-icons/si";
+import ParticlesBackground from "../../components/ParticlesBackground/ParticlesBackground";
 
 const Home = () => {
   return (
@@ -49,17 +50,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="hero-image slide-in-up">
-              <div className="image-placeholder">
-                <div className="code-animation">
-                  <div className="code-line"></div>
-                  <div className="code-line"></div>
-                  <div className="code-line"></div>
-                  <div className="code-line"></div>
-                  <div className="code-line"></div>
-                </div>
+          
+              <div className="hero-image slide-in-up">
+                <ParticlesBackground />
               </div>
-            </div>
+        
           </div>
         </div>
 
