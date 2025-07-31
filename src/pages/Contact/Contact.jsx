@@ -18,54 +18,48 @@ const Contact = () => {
     })
   }
 
+  // Modified handleSubmit function - no API calls
   const handleSubmit = async (e) => {
-  e.preventDefault()
-  setIsSubmitting(true)
-  
-  try {
-    const response = await fetch('https://port-2-hjqv.onrender.com/api/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData)
-    })
+    e.preventDefault()
+    setIsSubmitting(true)
     
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`)
-    }
-    
-    const result = await response.json()
-    
-    if (result.success) {
+    try {
+      // Simulate form processing delay
+      await new Promise(resolve => setTimeout(resolve, 1000))
+      
+      // Create mailto link and open email client
+      const mailtoLink = `mailto:aaronamit29@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+        `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+      )}`
+      
+      // Open user's default email client
+      window.location.href = mailtoLink
+      
+      // Show success message
       setSubmitStatus('success')
       setFormData({ name: '', email: '', subject: '', message: '' })
-    } else {
-      console.error('Backend error:', result.message)
+      
+    } catch (error) {
+      console.error('Error:', error)
       setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+      setTimeout(() => setSubmitStatus(''), 5000)
     }
-  } catch (error) {
-    console.error('Network or parsing error:', error)
-    setSubmitStatus('error')
-  } finally {
-    setIsSubmitting(false)
-    setTimeout(() => setSubmitStatus(''), 5000)
   }
-}
-
 
   const contactInfo = [
     {
       icon: '📧',
       title: 'Email',
-      value: 'aaronamit29@example.com',
-      link: 'mailto:your.email@example.com'
+      value: 'aaronamit29@gmail.com',
+      link: 'mailto:aaronamit29@gmail.com'
     },
     {
       icon: '📱',
       title: 'Phone',
       value: '+91 8074795696',
-      link: 'tel:+919876543210'
+      link: 'tel:+918074795696'
     },
     {
       icon: '📍',
@@ -73,12 +67,6 @@ const Contact = () => {
       value: 'Bengaluru, India',
       link: '#'
     }
-    // {
-    //   icon: '💼',
-    //   title: 'LinkedIn',
-    //   value: 'https://www.linkedin.com/in/aaronamitbirru/',
-    //   link: 'https://linkedin.com/in/yourprofile'
-    // }
   ]
 
   return (
@@ -177,18 +165,18 @@ const Contact = () => {
                   className={`btn btn-primary form-submit ${isSubmitting ? 'submitting' : ''}`}
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? 'Sending...' : 'Send Message'}
+                  {isSubmitting ? 'Opening Email Client...' : 'Send via Email'}
                 </button>
 
                 {submitStatus === 'success' && (
                   <div className="form-message success">
-                    Thank you! Your message has been sent successfully. I'll get back to you soon!
+                    Your email client should have opened with the message pre-filled. Please send the email from there!
                   </div>
                 )}
 
                 {submitStatus === 'error' && (
                   <div className="form-message error">
-                    Sorry, there was an error sending your message. Please try again or email me directly.
+                    Sorry, there was an error opening your email client. Please email me directly at aaronamit29@gmail.com
                   </div>
                 )}
               </form>
@@ -229,9 +217,6 @@ const Contact = () => {
                   <a href="https://www.linkedin.com/in/aaronamitbirru/" className="social-btn" aria-label="LinkedIn">
                     <span>LinkedIn</span>
                   </a>
-                  {/* <a href="https://twitter.com/yourusername" className="social-btn" aria-label="Twitter">
-                    <span>Twitter</span>
-                  </a> */}
                 </div>
               </div>
             </div>
