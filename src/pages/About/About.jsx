@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
-import profileImage from '../../assets/aaronamit.jpeg';
-
+import profileImage from "../../assets/aaronamit.jpeg";
 
 const About = () => {
   const skills = [
@@ -18,22 +17,22 @@ const About = () => {
   const experience = [
     {
       year: "2024 - Present",
-      title: "MERN STACK | REACT NATIVE DEVELOPER",
+      title: "Consultant | ReactJS Developer | React Native(Learning)",
       company: "DND INFOTTECH LLP",
       description:
-        "Leading development of modern web applications using React, Node.js, and cloud technologies. Mentoring junior developers and optimizing application performance.",
+        "I'm currently expanding my skill set by learning React Native, focusing on building pixel-perfect mobile UIs and integrating APIs using Expo and modern libraries. Leading development of modern web applications using React, Node.js, and cloud technologies. Mentoring junior developers and optimizing application performance.",
     },
     {
       year: "2023 - 2024",
-      title: "ReactJS Developer",
+      title: "Consultant | ReactJS Developer",
       company: "DND INFOTTECH LLP",
       description:
         "Developed and maintained multiple client projects using MERN stack. Implemented responsive designs and RESTful APIs.",
     },
     {
       year: "2022 - 2023",
-      title: "Consultant | Front End Developer",
-      company: "DND INFOTTECH LLP",
+      title: "Software Developer Trainee",
+      company: "J SPIDERS",
       description:
         "Specialized in creating beautiful, responsive user interfaces using React and modern CSS techniques.",
     },
@@ -65,7 +64,8 @@ const About = () => {
             <div className="about-text">
               <h1 className="about-title fade-in">About Me</h1>
               <p className="about-subtitle slide-in-up">
-                Passionate Full Stack Developer with 2 years of experience
+                Enthusiastic Full Stack Developer with nearly 2 years of
+                hands-on experience.
               </p>
               <div className="about-description slide-in-up">
                 <p>
@@ -89,9 +89,13 @@ const About = () => {
             </div>
             <div className="about-image slide-in-up">
               <div className="image-container">
-               <div className="profile-placeholder">
-  <img src={profileImage} alt="Your Photo" className="profile-image" />
-</div>
+                <div className="profile-placeholder">
+                  <img
+                    src={profileImage}
+                    alt="Your Photo"
+                    className="profile-image"
+                  />
+                </div>
 
                 <div className="image-decoration"></div>
               </div>

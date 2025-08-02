@@ -29,7 +29,7 @@ const Projects = () => {
       image: adeiaz,
       description: 'Collaboratively developed a React-based platform for managing LED rooftop car advertisements, inspired by Lyt-ads and Flash DOOH',
       technologies: ['React', 'Context API', 'CSS3', 'PHP','AWS EC2'],
-      liveUrl: '#',
+      liveUrl: 'http://www.adeiaz.com/',
       githubUrl: '#',
       featured: true
     },
@@ -51,7 +51,7 @@ const Projects = () => {
       image: anandam,
       description: 'Developed an interactive educational website using React.js, focusing on student engagement and smooth course access',
       technologies: ['React', 'RestfulAPI', 'CSS3', 'Node.js','Express.js'],
-      liveUrl: '#',
+      liveUrl: 'https://anandamlearning.com/',
       githubUrl: '#',
       featured: false
     },
@@ -62,7 +62,7 @@ const Projects = () => {
       image: port,
       description: 'A responsive portfolio website built with React and modern CSS. Features smooth animations, dark mode toggle, and contact form.',
       technologies: ['React', 'CSS3', 'Framer Motion', 'Netlify','MUI','SI-React-icons'],
-      liveUrl: '#',
+      liveUrl: 'https://aaronamit-portfolio.netlify.app/',
       githubUrl: '#',
       featured: false
     },
