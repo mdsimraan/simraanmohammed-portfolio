@@ -6,6 +6,8 @@ import anandam from '../../assets/anandam.png'
 import port from '../../assets/port.jpg'
 import ERP from '../../assets/ERP.jpg'
 import cm from '../../assets/cm.jpg'
+import DS from '../../assets/DS.png'
+
 
 const Projects = () => {
   const [filter, setFilter] = useState('all')
@@ -74,6 +76,17 @@ const Projects = () => {
       description: 'Designed and developed the front-end of an ERP website to streamline business operations ',
       technologies: ['React', 'API Integration', 'CSS3', 'Chart.js','Shadcn-ui','MUI'],
       liveUrl: '#',
+      githubUrl: '#',
+      featured: false
+    },
+    {
+      id: 7,
+      title: 'Digital - Store',
+      category: 'frontend',
+      image: DS,
+      description: 'Premium animated React e‑commerce site with 3D visuals, glassmorphism UI, and seamless checkout flow',
+      technologies: ['React', 'Vite','React Router','Three.js', 'React Three Fiber', 'JavaScript(ES6+)', 'CSS3','Glassmorphism','Animations'],
+      liveUrl: 'https://digitalstoreai.netlify.app/',
       githubUrl: '#',
       featured: false
     },
