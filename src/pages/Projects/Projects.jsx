@@ -64,7 +64,7 @@ const Projects = () => {
       image: port,
       description: 'A responsive portfolio website built with React and modern CSS. Features smooth animations, dark mode toggle, and contact form.',
       technologies: ['React', 'CSS3', 'Framer Motion', 'Netlify','MUI','SI-React-icons'],
-      liveUrl: 'https://aaronamit-portfolio.netlify.app/',
+      liveUrl: 'https://mdsimraan-portfolio.netlify.app/',
       githubUrl: '#',
       featured: false
     },
