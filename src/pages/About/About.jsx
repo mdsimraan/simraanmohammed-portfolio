@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profileImage from "../../assets/aaronamit.jpeg";
+import profileImage from "../../assets/simraan.jpeg";
 
 const About = () => {
   const skills = [
@@ -32,7 +32,7 @@ const About = () => {
     {
       year: "2022 - 2023",
       title: "Software Developer Trainee",
-      company: "J SPIDERS",
+      company: "TRAINING INSTITUTE",
       description:
         "Specialized in creating beautiful, responsive user interfaces using React and modern CSS techniques.",
     },
@@ -40,16 +40,9 @@ const About = () => {
 
   const education = [
     {
-      year: "2023",
-      degree: "Java Full Stack",
-      school: "J SPIDERS",
-      description:
-        "Comprehensive program covering modern web development, Back-end , Database technologies and best practices.",
-    },
-    {
-      year: "2021",
-      degree: "Bachelor of Technology & Science in Mechanical Engineering",
-      school: "Vignans Lara Institute of Technology & Science",
+      year: "2022",
+      degree: "Bachelor of Technology in Electronics and Communication Engineering",
+      school: "Potti Sri Ramulu Chalavadi Malikarjuna Rao College Of Engineering And Technology",
       description:
         "Gained expertise in core mechanical engineering while cultivating an analytical mindset and an interest in technology-driven solutions.",
     },

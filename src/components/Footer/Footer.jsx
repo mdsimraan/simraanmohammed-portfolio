@@ -14,9 +14,9 @@ const Footer = () => {
   ]
 
   const socialLinks = [
-  { url: 'https://github.com/aaron-dnd', label: 'GitHub', icon: <FaGithub size={20} /> },
-  { url: 'https://www.linkedin.com/in/aaronamitbirru/', label: 'LinkedIn', icon: <FaLinkedin size={20} /> },
-  { url: 'mailto:aaronamit29@gmail.com', label: 'Email', icon: <FaEnvelope size={20} /> }
+  { url: 'https://github.com/mdsimraan', label: 'GitHub', icon: <FaGithub size={20} /> },
+  { url: 'https://www.linkedin.com/in/simraanmd/', label: 'LinkedIn', icon: <FaLinkedin size={20} /> },
+  { url: 'mailto:mohammedsimraan30@gmail.com', label: 'Email', icon: <FaEnvelope size={20} /> }
 ];
 
 
@@ -69,18 +69,18 @@ const Footer = () => {
             <div className="contact-item">
               <span className="contact-icon">📧</span>
               <a href="mailto:your.email@example.com" className="contact-link">
-                aaronamit29@gmail.com
+                mohammedsimraan30@gmail.com
               </a>
             </div>
             <div className="contact-item">
               <span className="contact-icon">📱</span>
               <a href="tel:+919876543210" className="contact-link">
-                +91 8074795696
+                +91 7842182250
               </a>
             </div>
             <div className="contact-item">
               <span className="contact-icon">📍</span>
-              <span className="contact-text">Bengaluru, India</span>
+              <span className="contact-text">Hyderabad, India</span>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p className="copyright">
-              © {currentYear} Aaron Amit. All rights reserved.
+              © {currentYear} Simraan Mohammed. All rights reserved.
             </p>
           </div>
         </div>

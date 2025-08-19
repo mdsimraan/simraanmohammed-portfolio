@@ -28,7 +28,7 @@ const Contact = () => {
       await new Promise(resolve => setTimeout(resolve, 1000))
       
       // Create mailto link and open email client
-      const mailtoLink = `mailto:aaronamit29@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      const mailtoLink = `mailto:mohammedsimraan30@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
         `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       )}`
       
@@ -52,19 +52,19 @@ const Contact = () => {
     {
       icon: '📧',
       title: 'Email',
-      value: 'aaronamit29@gmail.com',
-      link: 'mailto:aaronamit29@gmail.com'
+      value: 'mohammedsimraan30@gmail.com',
+      link: 'mailto:mohammedsimraan30@gmail.com'
     },
     {
       icon: '📱',
       title: 'Phone',
-      value: '+91 8074795696',
-      link: 'tel:+918074795696'
+      value: '+91 7842182250',
+      link: 'tel:+917842182250'
     },
     {
       icon: '📍',
       title: 'Location',
-      value: 'Bengaluru, India',
+      value: 'Hyderabad, India',
       link: '#'
     }
   ]
@@ -211,10 +211,10 @@ const Contact = () => {
               <div className="social-links">
                 <h3>Follow me</h3>
                 <div className="social-buttons">
-                  <a href="https://github.com/aaron-dnd" className="social-btn" aria-label="GitHub">
+                  <a href="https://github.com/mdsimraan" className="social-btn" aria-label="GitHub">
                     <span>GitHub</span>
                   </a>
-                  <a href="https://www.linkedin.com/in/aaronamitbirru/" className="social-btn" aria-label="LinkedIn">
+                  <a href="https://www.linkedin.com/in/simraanmd/" className="social-btn" aria-label="LinkedIn">
                     <span>LinkedIn</span>
                   </a>
                 </div>

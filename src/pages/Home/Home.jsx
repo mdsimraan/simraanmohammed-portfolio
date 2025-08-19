@@ -17,9 +17,9 @@ const Home = () => {
             <div className="hero-text">
               <span className="hero-greeting fade-in">Hello, I'm</span>
               <h1 className="hero-title slide-in-up">
-                <span className="name-highlight">Aaron Amit</span>
+                <span className="name-highlight">Simraan Mohammed</span>
                 <br />
-                Full Stack Developer
+                Front End Developer
               </h1>
               <p className="hero-description slide-in-up">
                 I craft beautiful, responsive web applications using modern
