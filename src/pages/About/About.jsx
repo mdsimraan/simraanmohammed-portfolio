@@ -17,22 +17,22 @@ const About = () => {
   const experience = [
     {
       year: "2024 - Present",
-      title: "Consultant | ReactJS Developer | React Native(Learning)",
-      company: "DND INFOTTECH LLP",
+      title: " ReactJS Developer | Front-End Developer ",
+      company: "A R Softcon Pvt Ltd",
       description:
-        "I'm currently expanding my skill set by learning React Native, focusing on building pixel-perfect mobile UIs and integrating APIs using Expo and modern libraries. Leading development of modern web applications using React, Node.js, and cloud technologies. Mentoring junior developers and optimizing application performance.",
+        "Actively upskilling in modern frontend technologies including Tailwind CSS, Next.js, TypeScript, and Three.js to develop scalable, performant, and visually rich web applications using modern development standards.",
     },
     {
       year: "2023 - 2024",
-      title: "Consultant | ReactJS Developer",
-      company: "DND INFOTTECH LLP",
+      title: " ReactJS Developer ",
+      company: "A R Softcon Pvt Ltd",
       description:
         "Developed and maintained multiple client projects using MERN stack. Implemented responsive designs and RESTful APIs.",
     },
     {
       year: "2022 - 2023",
-      title: "Software Developer Trainee",
-      company: "TRAINING INSTITUTE",
+      title: "Front-End Developer",
+      company: "A R Softcon Pvt Ltd",
       description:
         "Specialized in creating beautiful, responsive user interfaces using React and modern CSS techniques.",
     },
