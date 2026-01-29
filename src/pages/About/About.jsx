@@ -17,14 +17,14 @@ const About = () => {
   const experience = [
     {
       year: "2024 - Present",
-      title: " ReactJS Developer | Front-End Developer ",
+      title: " ReactJS Developer | Front-End Developer | Full-Stack Developer ",
       company: "A R Softcon Pvt Ltd",
       description:
         "Actively upskilling in modern frontend technologies including Tailwind CSS, Next.js, TypeScript, and Three.js to develop scalable, performant, and visually rich web applications using modern development standards.",
     },
     {
       year: "2023 - 2024",
-      title: " ReactJS Developer ",
+      title: " ReactJS Developer | MERN Stack Developer ",
       company: "A R Softcon Pvt Ltd",
       description:
         "Developed and maintained multiple client projects using MERN stack. Implemented responsive designs and RESTful APIs.",
@@ -57,7 +57,7 @@ const About = () => {
             <div className="about-text">
               <h1 className="about-title fade-in">About Me</h1>
               <p className="about-subtitle slide-in-up">
-                Enthusiastic Full Stack Developer with nearly 2 years of
+                Enthusiastic Full Stack Developer with 3+ years of
                 hands-on experience.
               </p>
               <div className="about-description slide-in-up">

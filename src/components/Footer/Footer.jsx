@@ -16,7 +16,7 @@ const Footer = () => {
   const socialLinks = [
   { url: 'https://github.com/mdsimraan', label: 'GitHub', icon: <FaGithub size={20} /> },
   { url: 'https://www.linkedin.com/in/simraanmd/', label: 'LinkedIn', icon: <FaLinkedin size={20} /> },
-  { url: 'mailto:mohammedsimraan30@gmail.com', label: 'Email', icon: <FaEnvelope size={20} /> }
+  { url: 'mailto:mohammedsimraan786@gmail.com', label: 'Email', icon: <FaEnvelope size={20} /> }
 ];
 
 
@@ -30,7 +30,7 @@ const Footer = () => {
               <span className="logo-text">Portfolio</span>
             </Link>
             <p className="footer-description">
-              MERN Stack Developer passionate about creating beautiful, 
+              ReactJS Developer passionate about creating beautiful, 
               functional web applications. Ready to contribute and learn!
             </p>
             <div className="footer-social">
@@ -69,7 +69,7 @@ const Footer = () => {
             <div className="contact-item">
               <span className="contact-icon">📧</span>
               <a href="mailto:your.email@example.com" className="contact-link">
-                mohammedsimraan30@gmail.com
+                mohammedsimraan786@gmail.com
               </a>
             </div>
             <div className="contact-item">

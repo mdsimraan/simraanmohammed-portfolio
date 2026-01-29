@@ -28,7 +28,7 @@ const Contact = () => {
       await new Promise(resolve => setTimeout(resolve, 1000))
       
       // Create mailto link and open email client
-      const mailtoLink = `mailto:mohammedsimraan30@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      const mailtoLink = `mailto:mohammedsimraan786@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
         `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       )}`
       
@@ -52,8 +52,8 @@ const Contact = () => {
     {
       icon: '📧',
       title: 'Email',
-      value: 'mohammedsimraan30@gmail.com',
-      link: 'mailto:mohammedsimraan30@gmail.com'
+      value: 'mohammedsimraan786@gmail.com',
+      link: 'mailto:mohammedsimraan786@gmail.com'
     },
     {
       icon: '📱',
