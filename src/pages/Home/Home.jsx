@@ -37,7 +37,7 @@ const Home = () => {
               </div>
               <div className="hero-stats slide-in-up">
                 <div className="stat">
-                  <h3>7+</h3>
+                  <h3>6+</h3>
                   <p>Projects Completed</p>
                 </div>
                 <div className="stat">
