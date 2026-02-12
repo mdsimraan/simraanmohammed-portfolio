@@ -231,7 +231,7 @@ const Contact = () => {
           <div className="faq-grid">
             <div className="faq-item">
               <h3>What's your experience level?</h3>
-              <p>I have almost 2 years of hands-on experience in web development with a strong foundation in MERN stack technologies.</p>
+              <p>I have 3+ years of hands-on experience in web development with a strong foundation in MERN stack technologies.</p>
             </div>
             <div className="faq-item">
               <h3>Are you available for full-time roles?</h3>
